@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+
+<form action="post">
+    <fieldset>
+    <legend>Add User</legend>
+    <div>
+        <label for="Firstname">First name</label><br>
+        <input type="text" name="firstname"id="firstname"><br>
+        <label for="lastname">last name</label><br>
+        <input type="text" name="lastname"id="lastname"><br>
+        <label for="emailaddress">email address</label><br>
+        <input type="text" name="emailaddress"id="emailaddress"><br>
+    </div>
+    <label for="Status">Status</label><br>
+    <select id="status" name="status">
+        <option value="Student">Student</option>
+        <option value="Instructor">Instructor</option>
+        <option value="Guest">Guest</option>
+    </select>
+
+    <div>
+<p>Choose your favourite Programming Language</p>
+<input type="radio" id="radio">HTML<br>
+<input type="radio" id="radio">CSS<br>
+<input type="radio" id="radio">JavaScript<br>
+    </div>
+ 
+    <div>
+        <textarea cols="20"rows="5" placeholder="Comments"></textarea><br>
+        <label for="Date" id="Date">Date</label>
+        <input type="date" id="date" value="current date">
+    </div>
+
+    <div>
+        <input type="checkbox" id="checkbox">
+        <label for="signup">sign up for the news letter</label><br>
+        <input type="checkbox" id="checkbox">
+        <label for="terms_and_conditions">agree to terms and conditions</label><br>
+        <button id="Submit">Submit</button>
+    </div>
+
+</fieldset>
+</form>
+</body>
+</html>
